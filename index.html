@@ -1756,5 +1756,10 @@ async function submitRSVP(){
       </g>
       <rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="1.5"
         fill="rgba(240,225,190,0.08)" stroke="rgba(200,168,76,0.45)" stroke-width=".8"/>
-      <path d="M${dripX} ${dripY1} Q${dripSide==='L'?bx-2:bx+bw+2} ${(dripY1+dripY2)/2} ${dripX} ${dripY2}"
-        fill="none" stroke="rgba(200,168,76,0.2)"
+     <path d="M${dripX} ${dripY1} Q${dripSide==='L'?bx-2:bx+bw+2} ${(dripY1+dripY2)/2} ${dripX} ${dripY2}"
+        fill="none" stroke="rgba(200,168,76,0.2)" stroke-width=".7"/>
+    `;
+ container.appendChild(svg);
+  });
+})();
+       
