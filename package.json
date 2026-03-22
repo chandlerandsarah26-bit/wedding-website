@@ -1,0 +1,8 @@
+{
+  "name": "chandler-sarah-wedding-rsvp",
+  "version": "1.0.0",
+  "description": "Netlify serverless function for wedding RSVP → Google Sheets",
+  "dependencies": {
+    "googleapis": "^140.0.1"
+  }
+}
